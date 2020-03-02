@@ -1,0 +1,1 @@
+print "label.config(font=("Courier", 44))"

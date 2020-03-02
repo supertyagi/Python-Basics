@@ -1,16 +1,8 @@
-# program to check prime number
-
-num = int(input("Enter the number : "))
-fact = 0
-
-for i in range(2,num):
-    if num%i==0:
-        fact = 0
-        break
-    else:
-        fact=1
-        break
-if fact==1:
-    print("prime")
+print "CHECK PRIME NUMBER".center(80)
+a=int(input("Enter the number:"))
+if (a%2!=0):
+ print a,"is a prime number" 
+elif a==2:
+ print a,"is a prime number"
 else:
-    print("not prime")
+ print "PLEASE ENTER AN INTEGER".center(80)

@@ -1,0 +1,1 @@
+print("sarthak"*5)
